@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
 
 function App() {
+  // TODO: Haal isAuthenticated en isLoading op via useAuth0()
+  // TODO: Geef de gebruiker feedback dat de app aan het laden is
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {
+        // TODO: Als de gebruiker NIET is ingelogd, toon welkom en login-knop anders toon je het profielcomponent
+      }
+    </>
   );
 }
 
