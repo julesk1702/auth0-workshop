@@ -16,7 +16,7 @@ Voor uitleg hoe je een Auth0-account aanmaakt en een applicatie configureert, zi
    npm install
    ```
 ---
-
+3. Maak een auth0 applicatie aan (zie bijlage onderaan de readme)
 ## Stap 1: Auth0Provider instellen (`index.js`)
 
 - Importeer `Auth0Provider` uit `@auth0/auth0-react`
